@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+        <section class="welcome">
+            <h1 class="welcome_text">Hello, <br> I'm Kristof!</h1>
+            <button id="down_arrow" class="arrow_down"><i class="fas fa-arrow-circle-down"></i></button>
+        </section>
+        <section class="head_img">
+            <img class="profile_image" src="img/head_img.jpg" alt="profile_img">
+            <nav class="social_nav">
+                <ul>
+                    <li><a href="https://www.instagram.com/piratekex/" target="_blank"><span><i class="fab fa-instagram"></i></span></a></li>
+                    <li><a href="https://www.facebook.com/kristof.mayer" target="_blank"><span><i class="fab fa-facebook"></i></span></a></li>
+                    <li><a href="https://twitter.com/piratekex" target="_blank"><span><i class="fab fa-twitter"></i></span></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCdszs_y_eH4pcRdFnkYr2YA?view_as=subscriber" target="_blank"><span><i class="fab fa-youtube"></i></span></a></li>
+                    <li><a href="https://www.twitch.tv/tztkrisi" target="_blank"><span><i class="fab fa-twitch"></i></span></a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="about_text">
+            <p>Hello, My name is Kristof. I'm studing front-end development for almost 4 years now. I had some fun in group projects, mainly worked with vanilla JavaScrip, but my main focus is on react.js at the moment. 
+            I also built some sites for one time events which are no longer exist on the web, but I learnt a lot from them. My attituted is hard working and strickt to deadlines. </p>
+            <p>A bit of my background: I came from Hungary, a small country in middle of Europe. I used to do website design back in the time, mainly with PhotoShop, but I enjoy writing the codes and see my ideas working, than just desing them.
+            I came to the UK to find my place as a Front-end developer, I still looking for a full time work opportunity, where I can expand my knowledge, till I find that, you can find me behind coffee machines as a great barista.</p>
+        </section>
+        <section class="about_head" id="about_head">
+            <h1>About me!</h1>
+        </section>
+        <section class="portfolio">
+            <h1 class="portfolio_text">My work</h1>
+            <!--<div class="arrow_left"><i class="fas fa-caret-left"></i></div>-->
+            <div class="slider">
+                <ul class="slider_track">
+                    <li class="slider_track--1">
+                        <a href="https://github.com/piratekex/Burningheaven/blob/master/index.html" target="blank"><img src="img/burning_heaven.jpg" alt=""></a>
+                    </li>
+                    <li class="slider_track--2">
+                        <a href="https://codepen.io/piratekex/full/QgBNzq" target="blank"><img src="img/svg.jpg" alt=""></a>
+                    </li>
+                    <li class="slider_track--3">
+                        <a href="https://codepen.io/piratekex/full/dLLJXe" target="blank"><img src="img/documentation.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        <!--<div class="arrow_right"><i class="fas fa-caret-right"></i></div>-->
+        </section>
+        <section class="contact">
+            <h1>Contact me!</h1>
+            <form action="https://formspree.io/piratekex@yahoo.com" method="POST">
+                <input type="text" name="name" id="name" placeholder="Name" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Name'""> 
+                <input type="email" name="email" id="email" placeholder="Your e-mail" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Your e-mail'"> <br>
+                <textarea name="textarea" id="message" cols="30" rows="10" placeholder="Your message" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Your message'"></textarea><br>
+                <button id="send">Send</button>
+            </form>
+        </section>
+        <footer>
+                <p>Copyright &copy; 2019 PirateKex Design</p>
+        </footer>
+</body>
+</html>
