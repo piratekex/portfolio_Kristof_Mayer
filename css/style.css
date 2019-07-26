@@ -570,6 +570,13 @@ body{
     list-style: none;
 }
 
+.slider ul li:hover{
+    width: 60%;
+    height: 35%;
+    border-radius: 0;
+    overflow: hidden;
+}
+
 /*
 .slider::before{
 
@@ -641,6 +648,13 @@ body{
         height: 35%;
         margin-top: 2rem;
         border-radius: 0;
+    }
+
+    .slider ul li:hover{
+        width: 60%;
+        height: 35%;
+        border-radius: 0;
+        overflow: hidden;
     }
 
 
