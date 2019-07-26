@@ -22,7 +22,7 @@ body{
 
 .welcome{
     grid-area: welcome;
-    background-image: url('/img/welcom_pic.jpeg');
+    background-image: url('../img/welcom_pic.jpeg');
     background-color: #313943;
     background-blend-mode: overlay;
     font-family: 'Cormorant Infant', serif;
